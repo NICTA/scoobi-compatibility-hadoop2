@@ -4,9 +4,9 @@ organization := "com.nicta"
 
 name := "scoobi-compatibility-hadoop2"
 
-version := "1.0.1"
+version := "1.0.2"
 
-scalaVersion := "2.11.0"
+scalaVersion := "2.10.4"
 
 libraryDependencies ++= Seq("org.apache.hadoop" % "hadoop-common"                     % "2.2.0" exclude("asm", "asm"),
                             "org.apache.hadoop" % "hadoop-hdfs"                       % "2.2.0" exclude("asm", "asm"),
